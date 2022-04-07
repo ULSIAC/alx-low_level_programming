@@ -1,9 +1,12 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+/**
+ * main - Entry point
+ * Description: using the main function
+ * this program prints "Programming is like building a multilingual puzzle
+ * Return:0
+ */
+int main(void)
 {
-    //sting initialisation
-    char Programming is like building a multilingual puzzule[] = "C and C++";
-
-    puts(Programming is like building a multilingual puzzule); //writing the string to stdout
-    return 0;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
